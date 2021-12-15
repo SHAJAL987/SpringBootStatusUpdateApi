@@ -1,34 +1,133 @@
-2021-12-14 16:05:41.515  INFO 21192 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2021-12-14 16:05:41.548  INFO 21192 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2021-12-14 16:05:41.549  INFO 21192 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2021-12-14 16:05:41.615  INFO 21192 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2021-12-14 16:05:45.693  INFO 8300 --- [main] c.s.r.api.ServiceRequestApplication      : Starting ServiceRequestApplication using Java 16.0.2 on MITU with PID 8300 (F:\Shajal\STS WORKSHOP\ServiceRequest\target\classes started by User in F:\Shajal\STS WORKSHOP\ServiceRequest)
-2021-12-14 16:05:45.695  INFO 8300 --- [main] c.s.r.api.ServiceRequestApplication      : No active profile set, falling back to default profiles: default
-2021-12-14 16:05:46.084  INFO 8300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2021-12-14 16:05:46.117  INFO 8300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
-2021-12-14 16:05:46.539  INFO 8300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8787 (http)
-2021-12-14 16:05:46.545  INFO 8300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-12-14 16:05:46.545  INFO 8300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
-2021-12-14 16:05:46.608  INFO 8300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-12-14 16:05:46.609  INFO 8300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 882 ms
-2021-12-14 16:05:46.751  INFO 8300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2021-12-14 16:05:46.785  INFO 8300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
-2021-12-14 16:05:46.888  INFO 8300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2021-12-14 16:05:46.951  INFO 8300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2021-12-14 16:05:47.230  INFO 8300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2021-12-14 16:05:47.242  INFO 8300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
-2021-12-14 16:05:48.711  INFO 8300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2021-12-14 16:05:48.718  INFO 8300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2021-12-14 16:05:48.749  WARN 8300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2021-12-14 16:05:49.146  INFO 8300 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b859355, org.springframework.security.web.context.SecurityContextPersistenceFilter@72b6fa98, org.springframework.security.web.header.HeaderWriterFilter@48928b57, org.springframework.security.web.authentication.logout.LogoutFilter@5e25085, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4bec6682, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6693818c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f267e1b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f24e33d, org.springframework.security.web.session.SessionManagementFilter@65f36591, org.springframework.security.web.access.ExceptionTranslationFilter@2f69d246, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@33197c2f]
-2021-12-14 16:05:49.400  INFO 8300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8787 (http) with context path ''
-2021-12-14 16:05:49.406  INFO 8300 --- [main] c.s.r.api.ServiceRequestApplication      : Started ServiceRequestApplication in 3.962 seconds (JVM running for 4.425)
-2021-12-14 16:06:09.707  INFO 8300 --- [http-nio-8787-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-12-14 16:06:09.707  INFO 8300 --- [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-12-14 16:06:09.708  INFO 8300 --- [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-12-14 16:06:09.975  INFO 8300 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.controller.ServiceController : updateService()Request : [{"service_id":0,"cust_no":0,"service_type_id":0,"old_document_no":null,"issue_date":null,"create_by":null,"create_date":null,"update_by":null,"update_date":null,"issue_flag":"E","remarks":null,"outlet_id":0,"sol_id":null,"new_document_no":null,"ac_no":null,"doc_img":null,"device":null,"ac_title":null,"doc_image_file_name":null,"tracker_id":104555}]
-2021-12-14 16:06:09.978  INFO 8300 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.serviceImpl.ServiceRequestMstServiceImpl : findByTrackerId()Request : [104555]
-2021-12-14 16:06:09.981  INFO 8300 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : method invoked class jdk.proxy2.$Proxy115 : findByTrackerId()Request : [104555]
-2021-12-14 16:06:10.015  INFO 8300 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : class jdk.proxy2.$Proxy115 : findByTrackerId()Response : 1
-2021-12-14 16:06:10.016  INFO 8300 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : class com.service.request.api.serviceImpl.ServiceRequestMstServiceImpl : findByTrackerId()Response : 1
-2021-12-14 16:06:10.019  INFO 8300 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : class com.service.request.api.controller.ServiceController : updateService()Response : {"message":"Invalid Status Flag.","responseCode":"0"}
+2021-12-15 14:21:57.762  INFO 18816 --- [http-nio-8787-exec-8] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.controller.ServiceController : updateServiceRequest()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:21:57.763  INFO 18816 --- [http-nio-8787-exec-8] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:21:57.782  INFO 18816 --- [http-nio-8787-exec-8] c.service.request.api.log.ServiceLogger  : class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Response : {"tracker_id":null,"ac_no":null,"issue_flag":null,"errorFlag":"Y","errorMessage":"Request Already Rejected."}
+2021-12-15 14:21:57.783  INFO 18816 --- [http-nio-8787-exec-8] c.service.request.api.log.ServiceLogger  : class com.service.request.api.controller.ServiceController : updateServiceRequest()Response : {"flag":"Y","message":"Request Already Rejected."}
+2021-12-15 14:22:37.468  INFO 18816 --- [http-nio-8787-exec-9] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.controller.ServiceController : updateServiceRequest()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:22:37.468  INFO 18816 --- [http-nio-8787-exec-9] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:22:37.486  INFO 18816 --- [http-nio-8787-exec-9] c.service.request.api.log.ServiceLogger  : class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Response : {"tracker_id":null,"ac_no":null,"issue_flag":null,"errorFlag":"Y","errorMessage":"Request Already Rejected."}
+2021-12-15 14:22:37.486  INFO 18816 --- [http-nio-8787-exec-9] c.service.request.api.log.ServiceLogger  : class com.service.request.api.controller.ServiceController : updateServiceRequest()Response : {"flag":"Y","message":"Request Already Rejected."}
+2021-12-15 14:22:44.294  INFO 18816 --- [http-nio-8787-exec-10] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.controller.ServiceController : updateServiceRequest()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"A","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:22:44.295  INFO 18816 --- [http-nio-8787-exec-10] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"A","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:22:44.319  INFO 18816 --- [http-nio-8787-exec-10] c.service.request.api.log.ServiceLogger  : class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Response : {"tracker_id":null,"ac_no":null,"issue_flag":null,"errorFlag":"N","errorMessage":"Operation Successfull."}
+2021-12-15 14:22:44.319  INFO 18816 --- [http-nio-8787-exec-10] c.service.request.api.log.ServiceLogger  : class com.service.request.api.controller.ServiceController : updateServiceRequest()Response : {"flag":"N","message":"Operation Successfull."}
+2021-12-15 14:23:11.973  INFO 18816 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-15 14:23:11.987  INFO 18816 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15 14:23:11.988  INFO 18816 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-15 14:23:12.059  INFO 18816 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-15 14:23:15.246  INFO 9708 --- [main] c.s.r.api.ServiceRequestApplication      : Starting ServiceRequestApplication using Java 16.0.2 on MITU with PID 9708 (F:\Shajal\STS WORKSHOP\ServiceRequest\target\classes started by User in F:\Shajal\STS WORKSHOP\ServiceRequest)
+2021-12-15 14:23:15.248  INFO 9708 --- [main] c.s.r.api.ServiceRequestApplication      : No active profile set, falling back to default profiles: default
+2021-12-15 14:23:15.628  INFO 9708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 14:23:15.638  INFO 9708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-12-15 14:23:16.064  INFO 9708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8787 (http)
+2021-12-15 14:23:16.070  INFO 9708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-15 14:23:16.070  INFO 9708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 14:23:16.133  INFO 9708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-15 14:23:16.133  INFO 9708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 855 ms
+2021-12-15 14:23:16.278  INFO 9708 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-15 14:23:16.311  INFO 9708 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-15 14:23:16.421  INFO 9708 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-15 14:23:16.486  INFO 9708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-15 14:23:16.803  INFO 9708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-15 14:23:16.814  INFO 9708 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-12-15 14:23:18.074  INFO 9708 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 14:23:18.081  INFO 9708 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15 14:23:18.109  WARN 9708 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-15 14:23:18.283  INFO 9708 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b04a6a4, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e4d93f7, org.springframework.security.web.header.HeaderWriterFilter@61607ff0, org.springframework.security.web.authentication.logout.LogoutFilter@354e2bff, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6292c63e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9f52eb7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2570851e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3465edf9, org.springframework.security.web.session.SessionManagementFilter@5e5d40ec, org.springframework.security.web.access.ExceptionTranslationFilter@7b6854b5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@758ebec4]
+2021-12-15 14:23:18.558  INFO 9708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8787 (http) with context path ''
+2021-12-15 14:23:18.569  INFO 9708 --- [main] c.s.r.api.ServiceRequestApplication      : Started ServiceRequestApplication in 3.578 seconds (JVM running for 4.071)
+2021-12-15 14:33:28.655  INFO 9708 --- [http-nio-8787-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 14:33:28.656  INFO 9708 --- [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-15 14:33:28.657  INFO 9708 --- [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-15 14:33:28.936  INFO 9708 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.controller.ServiceController : updateServiceRequest()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:33:28.939  INFO 9708 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:33:28.957  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@762bf32d (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:28.957  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@1ea85950 (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:28.958  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@32be4369 (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:28.958  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@4a41a00c (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:28.958  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@51452abf (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:28.958  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@3c011f6d (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:28.959  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6377ff1a (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:28.959  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@5d051dbe (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:28.959  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@6b7c22e4 (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:28.959  WARN 9708 --- [http-nio-8787-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection oracle.jdbc.driver.T4CConnection@2aaede16 (Closed Connection). Possibly consider using a shorter maxLifetime value.
+2021-12-15 14:33:58.961  WARN 9708 --- [http-nio-8787-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08006
+2021-12-15 14:33:58.962 ERROR 9708 --- [http-nio-8787-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : HikariPool-1 - Connection is not available, request timed out after 30003ms.
+2021-12-15 14:33:58.962  WARN 9708 --- [http-nio-8787-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 17002, SQLState: 08006
+2021-12-15 14:33:58.963 ERROR 9708 --- [http-nio-8787-exec-1] o.h.engine.jdbc.spi.SqlExceptionHelper   : IO Error: The Network Adapter could not establish the connection (CONNECTION_ID=/4jQPw2tQGeR9mpklZXcoQ==)
+2021-12-15 14:33:58.971 ERROR 9708 --- [http-nio-8787-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection] with root cause
+
+java.net.ConnectException: Connection timed out: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.connect(Net.java:576) ~[na:na]
+	at java.base/sun.nio.ch.Net.connect(Net.java:583) ~[na:na]
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:851) ~[na:na]
+	at java.base/java.nio.channels.SocketChannel.open(SocketChannel.java:285) ~[na:na]
+	at oracle.net.nt.TimeoutSocketChannel.connect(TimeoutSocketChannel.java:184) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:158) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.nt.TcpNTAdapter.establishSocket(TcpNTAdapter.java:380) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.nt.TcpNTAdapter.doLocalDNSLookupConnect(TcpNTAdapter.java:303) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:265) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:238) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.nt.ConnStrategy.executeConnOption(ConnStrategy.java:902) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:638) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:568) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:953) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:350) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1969) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:642) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1039) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:90) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:728) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:649) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:831) ~[na:na]
+
+2021-12-15 14:36:08.951  INFO 9708 --- [http-nio-8787-exec-2] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.controller.ServiceController : updateServiceRequest()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:36:08.951  INFO 9708 --- [http-nio-8787-exec-2] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:36:29.814  INFO 9708 --- [http-nio-8787-exec-2] c.service.request.api.log.ServiceLogger  : class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Response : {"tracker_id":null,"ac_no":null,"issue_flag":null,"errorFlag":"N","errorMessage":"Operation Successfull."}
+2021-12-15 14:36:29.814  INFO 9708 --- [http-nio-8787-exec-2] c.service.request.api.log.ServiceLogger  : class com.service.request.api.controller.ServiceController : updateServiceRequest()Response : {"flag":"N","message":"Operation Successfull."}
+2021-12-15 14:36:32.043  INFO 9708 --- [RMI TCP Connection(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-15 14:36:32.057  INFO 9708 --- [RMI TCP Connection(18)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15 14:36:32.059  INFO 9708 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-15 14:36:32.123  INFO 9708 --- [RMI TCP Connection(18)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-15 14:36:34.605  INFO 19568 --- [main] c.s.r.api.ServiceRequestApplication      : Starting ServiceRequestApplication using Java 16.0.2 on MITU with PID 19568 (F:\Shajal\STS WORKSHOP\ServiceRequest\target\classes started by User in F:\Shajal\STS WORKSHOP\ServiceRequest)
+2021-12-15 14:36:34.608  INFO 19568 --- [main] c.s.r.api.ServiceRequestApplication      : No active profile set, falling back to default profiles: default
+2021-12-15 14:36:34.990  INFO 19568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 14:36:35.000  INFO 19568 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-12-15 14:36:35.418  INFO 19568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8787 (http)
+2021-12-15 14:36:35.424  INFO 19568 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-15 14:36:35.424  INFO 19568 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 14:36:35.519  INFO 19568 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-15 14:36:35.519  INFO 19568 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 882 ms
+2021-12-15 14:36:35.663  INFO 19568 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-15 14:36:35.696  INFO 19568 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-15 14:36:35.800  INFO 19568 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-15 14:36:35.866  INFO 19568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-15 14:36:36.537  INFO 19568 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-15 14:36:36.550  INFO 19568 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2021-12-15 14:36:37.394  INFO 19568 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 14:36:37.401  INFO 19568 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-15 14:36:37.436  WARN 19568 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-15 14:36:37.616  INFO 19568 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ca0a21f, org.springframework.security.web.context.SecurityContextPersistenceFilter@41c88e00, org.springframework.security.web.header.HeaderWriterFilter@6dfebd2a, org.springframework.security.web.authentication.logout.LogoutFilter@6ed7c178, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@14bd523b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@354e2bff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7771c4e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@768d27e8, org.springframework.security.web.session.SessionManagementFilter@62f305bc, org.springframework.security.web.access.ExceptionTranslationFilter@6d41200c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@29d33f1]
+2021-12-15 14:36:37.878  INFO 19568 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8787 (http) with context path ''
+2021-12-15 14:36:37.884  INFO 19568 --- [main] c.s.r.api.ServiceRequestApplication      : Started ServiceRequestApplication in 3.528 seconds (JVM running for 3.992)
+2021-12-15 14:37:20.220  INFO 19568 --- [http-nio-8787-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 14:37:20.220  INFO 19568 --- [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-15 14:37:20.221  INFO 19568 --- [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-15 14:37:20.504  INFO 19568 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.controller.ServiceController : updateServiceRequest()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:37:20.507  INFO 19568 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"R","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:37:20.564  INFO 19568 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Response : {"tracker_id":null,"ac_no":null,"issue_flag":null,"errorFlag":"Y","errorMessage":"Request Already Rejected."}
+2021-12-15 14:37:20.566  INFO 19568 --- [http-nio-8787-exec-1] c.service.request.api.log.ServiceLogger  : class com.service.request.api.controller.ServiceController : updateServiceRequest()Response : {"flag":"Y","message":"Request Already Rejected."}
+2021-12-15 14:37:51.425  INFO 19568 --- [http-nio-8787-exec-2] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.controller.ServiceController : updateServiceRequest()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"A","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:37:51.426  INFO 19568 --- [http-nio-8787-exec-2] c.service.request.api.log.ServiceLogger  : method invoked class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Request : [{"tracker_id":"104555","ac_no":"2101401933710","issue_flag":"A","errorFlag":null,"errorMessage":null}]
+2021-12-15 14:37:51.454  INFO 19568 --- [http-nio-8787-exec-2] c.service.request.api.log.ServiceLogger  : class com.service.request.api.procedure.ServiceRequestPrcCall : parameters()Response : {"tracker_id":null,"ac_no":null,"issue_flag":null,"errorFlag":"N","errorMessage":"Operation Successfull."}
+2021-12-15 14:37:51.454  INFO 19568 --- [http-nio-8787-exec-2] c.service.request.api.log.ServiceLogger  : class com.service.request.api.controller.ServiceController : updateServiceRequest()Response : {"flag":"N","message":"Operation Successfull."}
